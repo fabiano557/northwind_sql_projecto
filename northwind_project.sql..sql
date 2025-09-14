@@ -1,0 +1,2 @@
+CREATE DATABASE Northwind;
+GO
