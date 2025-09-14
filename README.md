@@ -57,6 +57,8 @@ Abre el archivo northwind_project.sql en SQL Server Management Studio (SSMS).
 
 Ejecuta las consultas una por una para analizar la información.
 
+ Captura
+![Northwind](images/trabajo.png)
 
 
 
