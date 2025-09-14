@@ -1,9 +1,9 @@
-Northwind SQL Project 🗄
+--Northwind SQL Project 🗄
 
 Proyecto práctico de consultas SQL usando la base de datos de ejemplo Northwind de Microsoft.
 Este proyecto forma parte de mi portafolio de análisis de datos (Excel , SQL 🗄, Power BI ).
 
- Contenido del repositorio
+-- --Contenido del repositorio
 
 northwind_project.sql → Archivo con todas las consultas SQL.
 
@@ -15,7 +15,7 @@ SQL Server 2022 Express + SSMS
 
 Base de datos Northwind
 
- Consultas incluidas
+---- Consultas incluidas
 
 Listado de clientes por país y ciudad.
 
@@ -40,8 +40,8 @@ Productos con stock bajo.
 Ventas totales por región.
 
 Empleados con mayor cantidad de pedidos gestionados.
-Ejemplo de consulta
--- Ventas totales por empleado
+----Ejemplo de consulta
+- Ventas totales por empleado
 SELECT e.FirstName, e.LastName, SUM(od.Quantity * od.UnitPrice) AS TotalSales
 FROM Employees e
 JOIN Orders o ON e.EmployeeID = o.EmployeeID
@@ -49,7 +49,7 @@ JOIN [Order Details] od ON o.OrderID = od.OrderID
 GROUP BY e.FirstName, e.LastName
 ORDER BY TotalSales DESC;
 
-Cómo usar este proyecto
+----Cómo usar este proyecto
 
 Descarga la base Northwind e instálala en SQL Server.
 
